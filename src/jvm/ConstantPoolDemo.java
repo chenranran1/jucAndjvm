@@ -12,7 +12,7 @@ public class ConstantPoolDemo {
 		String string = new StringBuilder("计算机").append("软件").toString();
 		System.out.println(string.intern() == string); // true
 		
-		String string2 = new StringBuilder("ja").append("va").toString();
+		String string2 = new StringBuilder("ja1").append("va").toString();
 		System.out.println(string2.intern() == string2); // false
 		
 		String string3 = new String("java");
